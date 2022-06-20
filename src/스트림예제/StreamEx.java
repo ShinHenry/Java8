@@ -133,5 +133,6 @@ public class StreamEx {
         System.out.println("===== Stream 정렬 : 스트림을 역순으로 출력 =====");
         stream16.sorted(Comparator.reverseOrder()).forEach(s -> System.out.print(s + " "));
         System.out.println();
+
     }
 }
